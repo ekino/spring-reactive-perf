@@ -1,0 +1,10 @@
+{
+  "simulation": "PostgreSimulation",
+  "simulationId": "postgresimulation",
+  "start": 1555318483155,
+  "description": "",
+  "scenarios": ["R2dbcSimulation"],
+  "assertions": [
+
+  ]
+}

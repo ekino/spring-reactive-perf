@@ -1,0 +1,13 @@
+version: '3.5'
+
+services:
+  postgres:
+    image: postgres:9.6-alpine
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_DB=test
+      - POSTGRES_USER=foo
+      - POSTGRES_PASSWORD=foo
+    volumes:
+      - ./data/person.sql:/docker-entrypoint-initdb.d/person.sql

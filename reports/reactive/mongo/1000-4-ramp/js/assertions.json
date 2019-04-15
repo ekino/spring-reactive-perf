@@ -1,0 +1,10 @@
+{
+  "simulation": "RMongoSimulation",
+  "simulationId": "rmongosimulation",
+  "start": 1555332700139,
+  "description": "",
+  "scenarios": ["RMongoSimulation"],
+  "assertions": [
+
+  ]
+}

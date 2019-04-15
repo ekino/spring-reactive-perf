@@ -1,0 +1,10 @@
+{
+  "simulation": "MvcSimulation",
+  "simulationId": "mvcsimulation",
+  "start": 1555315402806,
+  "description": "",
+  "scenarios": ["MvcSimulation"],
+  "assertions": [
+
+  ]
+}

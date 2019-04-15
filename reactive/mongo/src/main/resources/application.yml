@@ -1,0 +1,9 @@
+server:
+  port: 9090
+
+spring:
+  data:
+    mongodb:
+      database: local
+  main:
+    allow-bean-definition-overriding: true
