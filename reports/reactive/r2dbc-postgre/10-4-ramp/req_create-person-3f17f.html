@@ -23,8 +23,8 @@
 <div class="frise"></div>
 <div class="container details">
     <div class="head">
-        <a class="logo" href="https://gatling.io" target="blank_" title="Gatling Home Page"><img alt="Gatling" src="style/logo.png"/></a>
-        <div><a href="https://gatling.io/gatling-frontline/?report" target="_blank">Get more features with Gatling FrontLine</a></div>
+        <a class="logo" href="https://gatling.io" target="blank_" title="Gatling Home Page"><img alt="Gatling" src="style/logo.svg"/></a>
+        <div class="frontline"><a href="https://gatling.io/gatling-frontline/?report" target="_blank">Get more features with Gatling FrontLine</a></div>
     </div>
     <div class="main">
         <div class="cadre">
@@ -37,10 +37,10 @@
                         <div class="item "><a href="index.html">GLOBAL</a></div>
                         <div class="item ouvert"><a id="details_link" href="#">DETAILS</a></div>
                         <script type="text/javascript">
-                          var timestamp = 1555404010028;
+                          var timestamp = 1558192422107;
                           var runStartHumanDate = moment(timestamp).format("YYYY-MM-DD HH:mm:ss Z");
-                          document.writeln("<p class='sim_desc' title='"+ runStartHumanDate +", duration : 19 seconds' data-content=''>");
-                          document.writeln("<b>" + runStartHumanDate + ", duration : 19 seconds </b>");
+                          document.writeln("<p class='sim_desc' title='"+ runStartHumanDate +", duration : 18 seconds' data-content=''>");
+                          document.writeln("<b>" + runStartHumanDate + ", duration : 18 seconds </b>");
                           document.writeln("</p>");
                         </script>
                     </div>
@@ -173,9 +173,6 @@
         <ul></ul>
     </div>
 </div>
-<div class="foot">
-    <a href="https://gatling.io" title="Gatling Home Page"><img alt="Gatling" src="style/logo-gatling.jpg"/></a>
-</div>
 <script type="text/javascript">
     var pageStats = stats.contents['req_create-person-3f17f'].stats;
     $(document).ready(function() {
@@ -306,7 +303,7 @@ var responseTimeDistributionChart = new Highcharts.Chart({
     text: 'A title to let highcharts reserve the place for the title set later'
   },
   xAxis: {
-    categories: ['9', '10', '11', '12', '13', '14', '15', '16', '17', '29'],
+    categories: ['10', '11', '12', '13', '14', '15', '16', '17', '18', '39'],
     tickInterval: 20
   },
   yAxis: {
@@ -335,7 +332,7 @@ type: 'column',
 color: '#4572A7',
 name: 'OK',
 data: [
-  2.5,7.5,22.5,25.0,17.5,12.5,5.0,2.5,2.5,2.5
+  7.5,17.5,32.5,12.5,5.0,5.0,7.5,5.0,5.0,2.5
 ],
 tooltip: { yDecimals: 0, ySuffix: 'ms' }
 },
@@ -356,7 +353,7 @@ responseTimeDistributionChart.setTitle({
   useHTML: true
 });
 
-var responseTimePercentiles = unpack([[1555404011,null],[1555404012,null],[1555404013,[13,13,15,20,21,23,25,27,28,29]],[1555404014,[12,12,12,13,14,14,15,15,15,16]],[1555404015,[11,11,12,12,12,13,13,13,13,14]],[1555404016,null],[1555404017,[11,13,14,15,15,15,15,15,15,15]],[1555404018,null],[1555404019,[9,9,11,12,12,13,13,13,13,14]],[1555404020,null],[1555404021,[12,12,13,13,13,13,13,13,13,14]],[1555404022,null],[1555404023,[10,10,11,11,11,12,12,12,12,13]],[1555404024,null],[1555404025,[11,11,12,13,13,13,13,13,13,13]],[1555404026,null],[1555404027,[10,10,11,12,12,12,12,12,12,12]],[1555404028,null],[1555404029,[11,11,11,11,11,11,11,11,11,12]]]);
+var responseTimePercentiles = unpack([[1558192423,null],[1558192424,[15,15,17,23,26,29,32,35,38,39]],[1558192425,[14,15,16,16,16,16,16,16,16,17]],[1558192426,null],[1558192427,[11,11,12,13,14,15,16,17,17,18]],[1558192428,null],[1558192429,[12,12,13,14,14,15,15,16,16,17]],[1558192430,null],[1558192431,[12,12,12,12,12,13,13,13,13,14]],[1558192432,null],[1558192433,[11,11,12,12,12,12,12,12,12,12]],[1558192434,null],[1558192435,[10,10,11,12,12,12,12,12,12,12]],[1558192436,null],[1558192437,[11,11,12,13,13,13,13,13,13,13]],[1558192438,null],[1558192439,[11,11,11,12,12,12,12,12,12,13]],[1558192440,null],[1558192441,[10,10,10,12,12,13,13,14,14,15]]]);
 
 var responseTimeChart = new Highcharts.StockChart({
   chart: {
@@ -551,7 +548,7 @@ responseTimeChart.setTitle({
   useHTML: true
 });
 
-var container_requests = unpack([[1555404011,[0,0, 0]],[1555404012,[0,0, 0]],[1555404013,[4,0, 4]],[1555404014,[4,0, 4]],[1555404015,[4,0, 4]],[1555404016,[0,0, 0]],[1555404017,[4,0, 4]],[1555404018,[0,0, 0]],[1555404019,[4,0, 4]],[1555404020,[0,0, 0]],[1555404021,[4,0, 4]],[1555404022,[0,0, 0]],[1555404023,[4,0, 4]],[1555404024,[0,0, 0]],[1555404025,[4,0, 4]],[1555404026,[0,0, 0]],[1555404027,[4,0, 4]],[1555404028,[0,0, 0]],[1555404029,[4,0, 4]]]);
+var container_requests = unpack([[1558192423,[0,0, 0]],[1558192424,[4,0, 4]],[1558192425,[4,0, 4]],[1558192426,[0,0, 0]],[1558192427,[4,0, 4]],[1558192428,[0,0, 0]],[1558192429,[4,0, 4]],[1558192430,[0,0, 0]],[1558192431,[4,0, 4]],[1558192432,[0,0, 0]],[1558192433,[4,0, 4]],[1558192434,[0,0, 0]],[1558192435,[4,0, 4]],[1558192436,[0,0, 0]],[1558192437,[4,0, 4]],[1558192438,[0,0, 0]],[1558192439,[4,0, 4]],[1558192440,[0,0, 0]],[1558192441,[4,0, 4]]]);
 
 var requestsChart = new Highcharts.StockChart({
   chart: {
@@ -660,7 +657,7 @@ requestsChart.setTitle({
   useHTML: true
 });
 
-var container_responses = unpack([[1555404011,[0,0, 0]],[1555404012,[0,0, 0]],[1555404013,[4,0, 4]],[1555404014,[4,0, 4]],[1555404015,[4,0, 4]],[1555404016,[0,0, 0]],[1555404017,[4,0, 4]],[1555404018,[0,0, 0]],[1555404019,[4,0, 4]],[1555404020,[0,0, 0]],[1555404021,[4,0, 4]],[1555404022,[0,0, 0]],[1555404023,[4,0, 4]],[1555404024,[0,0, 0]],[1555404025,[4,0, 4]],[1555404026,[0,0, 0]],[1555404027,[4,0, 4]],[1555404028,[0,0, 0]],[1555404029,[4,0, 4]]]);
+var container_responses = unpack([[1558192423,[0,0, 0]],[1558192424,[3,0, 3]],[1558192425,[5,0, 5]],[1558192426,[0,0, 0]],[1558192427,[4,0, 4]],[1558192428,[0,0, 0]],[1558192429,[4,0, 4]],[1558192430,[0,0, 0]],[1558192431,[4,0, 4]],[1558192432,[0,0, 0]],[1558192433,[4,0, 4]],[1558192434,[0,0, 0]],[1558192435,[4,0, 4]],[1558192436,[0,0, 0]],[1558192437,[4,0, 4]],[1558192438,[0,0, 0]],[1558192439,[4,0, 4]],[1558192440,[0,0, 0]],[1558192441,[4,0, 4]]]);
 
 var requestsChart = new Highcharts.StockChart({
   chart: {
@@ -863,7 +860,7 @@ type: 'scatter',
 color: 'rgba(69, 114, 167, .2)',
 name: 'OK',
 data: [
-[4,15],[16,27],[16,13],[16,15],[16,13],[16,13],[16,12],[16,13],[16,12],[16,11]
+[13,35],[16,16],[16,17],[16,16],[16,13],[16,12],[16,12],[16,13],[16,12],[16,14]
 ]},
 	  {
 type: 'scatter',

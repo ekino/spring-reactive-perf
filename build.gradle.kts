@@ -1,12 +1,13 @@
 plugins {
     `kotlin-dsl`
-    id("org.springframework.boot") version "2.1.4.RELEASE" apply false
+    id("org.springframework.boot") version "2.2.0.M3"
 }
 
 allprojects {
     repositories {
         mavenCentral()
-        maven { setUrl("http://repo.spring.io/libs-snapshot") }
+        maven { url = uri("https://repo.spring.io/snapshot") }
+        maven { url = uri("http://repo.spring.io/libs-snapshot") }
     }
 }
 
@@ -18,5 +19,3 @@ subprojects {
         }
     }
 }
-
-

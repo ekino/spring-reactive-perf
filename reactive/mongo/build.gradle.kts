@@ -1,6 +1,6 @@
 plugins {
     `java-library`
-    id("com.avast.gradle.docker-compose") version "0.9.1"
+    id("com.avast.gradle.docker-compose") version "0.9.4"
 }
 
 dependencies {

@@ -6,14 +6,10 @@ Several tests were done to compare Spring reactive against Spring MVC and JDBC. 
 requesting 4 times with a min delay of 100ms and a max delay of 200ms with a ramp up.    
 
 This branch uses these versions:
-- Spring Boot 2.1.4
-- Spring data R2DBC 1.0.0.M1
+- Spring Boot 2.1.4 -> 2.2.0.M3
+- Spring data R2DBC 1.0.0.M1 -> 1.0.0.M2
 - R2DBC PostgreSQL 1.0.0.M7
-- R2DBC SPI 1.0.0.M6
-
-This project with version upgrades can be found on these branches:
-- Spring Boot 2.2 and few R2DBC upgrades: https://github.com/ekino/spring-reactive-perf/tree/upgrade-dependencies-1
-- Spring Boot R2DBC starter: https://github.com/ekino/spring-reactive-perf/tree/spring-boot-r2dbc-starter          
+- R2DBC SPI 1.0.0.M6 -> 1.0.0.M7        
 
 ## Testing the applications
 
