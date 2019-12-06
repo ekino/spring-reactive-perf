@@ -12,6 +12,7 @@ This branch uses these versions:
 - R2DBC SPI 1.0.0.M6
 
 This project with version upgrades can be found on these branches:
+- **LATEST: Spring Boot 2.2 and Spring Data R2DBC 1.0: https://github.com/ekino/spring-reactive-perf/tree/upgrade-dependencies-2**
 - Spring Boot 2.2 and few R2DBC upgrades: https://github.com/ekino/spring-reactive-perf/tree/upgrade-dependencies-1
 - Spring Boot R2DBC starter: https://github.com/ekino/spring-reactive-perf/tree/spring-boot-r2dbc-starter          
 
