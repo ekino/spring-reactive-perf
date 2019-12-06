@@ -16,13 +16,12 @@
 package com.ekino.r2dbc.repository;
 
 import com.ekino.r2dbc.model.Person;
-
-import org.springframework.data.r2dbc.repository.R2dbcRepository;
-import org.springframework.data.r2dbc.repository.query.Query;
+import org.springframework.data.r2dbc.repository.Query;
+import org.springframework.data.repository.reactive.ReactiveCrudRepository;
 import reactor.core.publisher.Flux;
 
-public interface PersonRepository extends R2dbcRepository<Person, Long> {
+public interface PersonRepository extends ReactiveCrudRepository<Person, Long> {
 
-    @Query("select * from person where age = $1")
+    @Query("select * from person where age = :age")
     Flux<Person> findByAge(int age);
 }

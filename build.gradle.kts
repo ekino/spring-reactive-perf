@@ -1,6 +1,6 @@
 plugins {
     `kotlin-dsl`
-    id("org.springframework.boot") version "2.2.0.M3"
+    id("org.springframework.boot") version "2.2.2.RELEASE"
 }
 
 allprojects {

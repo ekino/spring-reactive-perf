@@ -1,4 +1,4 @@
-	
+
 function getItemLink(item){
 	return item.pathFormatted + '.html';
 }

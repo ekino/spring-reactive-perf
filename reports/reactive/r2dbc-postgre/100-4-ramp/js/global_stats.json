@@ -6,65 +6,65 @@
         "ko": 0
     },
     "minResponseTime": {
+        "total": 3,
+        "ok": 3,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 520,
+        "ok": 520,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 22,
+        "ok": 22,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 32,
+        "ok": 32,
+        "ko": 0
+    },
+    "percentiles1": {
         "total": 7,
         "ok": 7,
         "ko": 0
     },
-    "maxResponseTime": {
-        "total": 650,
-        "ok": 650,
-        "ko": 0
-    },
-    "meanResponseTime": {
-        "total": 49,
-        "ok": 49,
-        "ko": 0
-    },
-    "standardDeviation": {
-        "total": 86,
-        "ok": 86,
-        "ko": 0
-    },
-    "percentiles1": {
-        "total": 16,
-        "ok": 16,
-        "ko": 0
-    },
     "percentiles2": {
-        "total": 40,
-        "ok": 40,
+        "total": 43,
+        "ok": 43,
         "ko": 0
     },
     "percentiles3": {
-        "total": 240,
-        "ok": 240,
+        "total": 71,
+        "ok": 71,
         "ko": 0
     },
     "percentiles4": {
-        "total": 447,
-        "ok": 447,
+        "total": 153,
+        "ok": 153,
         "ko": 0
     },
     "group1": {
-        "name": "t < 800 ms",
-        "count": 1600,
-        "percentage": 100
-    },
+    "name": "t < 800 ms",
+    "count": 1600,
+    "percentage": 100
+},
     "group2": {
-        "name": "800 ms < t < 1200 ms",
-        "count": 0,
-        "percentage": 0
-    },
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
     "group3": {
-        "name": "t > 1200 ms",
-        "count": 0,
-        "percentage": 0
-    },
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
     "group4": {
-        "name": "failed",
-        "count": 0,
-        "percentage": 0
-    },
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
     "meanNumberOfRequestsPerSecond": {
         "total": 76.19047619047619,
         "ok": 76.19047619047619,

@@ -1,6 +1,6 @@
 plugins {
     `java-library`
-    id("com.avast.gradle.docker-compose") version "0.9.4"
+    id("com.avast.gradle.docker-compose") version "0.10.4"
 }
 
 dependencies {
@@ -12,8 +12,7 @@ dependencies {
 }
 
 dockerCompose {
-    val bootRun by tasks
-    isRequiredBy(bootRun)
+    isRequiredBy(tasks.named("bootRun"))
     forceRecreate = true
     dockerComposeWorkingDirectory = "../../docker/mongo"
 }

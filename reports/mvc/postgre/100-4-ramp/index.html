@@ -47,7 +47,7 @@
                     <div class="content-in">
                         <h1><span>> </span>Global Information</h1>
                         <div class="article">
-                            
+
             <div class="schema polar">
               <div id="container_number_of_requests"></div>
             </div>
@@ -138,7 +138,7 @@
         setGlobalMenu();
         setActiveMenu();
         fillStats(pageStats);
-        
+
 function numberOfRequestsDataForGroup(group) {
   var data = {names: [], oks: [], kos: []};
 
@@ -311,7 +311,7 @@ indicatorsChart.setTitle({
 });
 
 	    $('#container_exceptions').sortable('#container_exceptions');
-    
+
 
   function shortenNameAndDisplayFullOnHover(name){
    if (name.length < 20)
@@ -403,7 +403,7 @@ else {
 }
 
 	    $('#container_errors').sortable('#container_errors');
-    
+
 allUsersData.yAxis = 0;
 
 var allUsersChart = new Highcharts.StockChart({
@@ -664,8 +664,8 @@ var responseTimeChart = new Highcharts.StockChart({
     }
   },
   series: [
-  
-    
+
+
          {
 pointInterval: 1000,
 name: 'min',
@@ -988,7 +988,7 @@ tooltip: { yDecimals: 0, ySuffix: '', valueDecimals: 0 }
 ,type: 'area'},
     allUsersData,
 {
-  
+
 type: 'pie',
 name: 'Distribution',
 data: [
