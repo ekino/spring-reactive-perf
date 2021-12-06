@@ -3,6 +3,6 @@ server:
 
 spring:
   r2dbc:
-    url: r2dbc:postgresql://localhost:5432/test
+    url: r2dbc:pool:postgresql://localhost:5432/test
     username: foo
     password: foo

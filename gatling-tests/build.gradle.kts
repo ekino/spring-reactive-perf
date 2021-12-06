@@ -4,9 +4,9 @@ plugins {
 }
 
 dependencies {
-    implementation(group = "org.scala-lang", name = "scala-library", version = "2.12.7")
-    implementation(group = "io.gatling", name = "gatling-app", version = "3.3.1")
-    implementation(group = "io.gatling.highcharts", name = "gatling-charts-highcharts", version = "3.3.1")
+    implementation(group = "org.scala-lang", name = "scala-library", version = "2.13.7")
+    implementation(group = "io.gatling", name = "gatling-app", version = "3.6.1")
+    implementation(group = "io.gatling.highcharts", name = "gatling-charts-highcharts", version = "3.6.1")
 }
 
 tasks {

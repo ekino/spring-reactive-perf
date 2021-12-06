@@ -6,68 +6,68 @@
         "ko": 0
     },
     "minResponseTime": {
-        "total": 5,
-        "ok": 5,
+        "total": 3,
+        "ok": 3,
         "ko": 0
     },
     "maxResponseTime": {
-        "total": 7745,
-        "ok": 7745,
+        "total": 18561,
+        "ok": 18561,
         "ko": 0
     },
     "meanResponseTime": {
-        "total": 2605,
-        "ok": 2605,
+        "total": 5536,
+        "ok": 5536,
         "ko": 0
     },
     "standardDeviation": {
-        "total": 1704,
-        "ok": 1704,
+        "total": 4495,
+        "ok": 4495,
         "ko": 0
     },
     "percentiles1": {
-        "total": 2277,
-        "ok": 2278,
+        "total": 3689,
+        "ok": 3687,
         "ko": 0
     },
     "percentiles2": {
-        "total": 3607,
-        "ok": 3615,
+        "total": 8355,
+        "ok": 8354,
         "ko": 0
     },
     "percentiles3": {
-        "total": 5889,
-        "ok": 5889,
+        "total": 14348,
+        "ok": 14348,
         "ko": 0
     },
     "percentiles4": {
-        "total": 6191,
-        "ok": 6191,
+        "total": 15022,
+        "ok": 15022,
         "ko": 0
     },
     "group1": {
-        "name": "t < 800 ms",
-        "count": 2761,
-        "percentage": 17
-    },
+    "name": "t < 800 ms",
+    "count": 2119,
+    "percentage": 13
+},
     "group2": {
-        "name": "800 ms < t < 1200 ms",
-        "count": 722,
-        "percentage": 5
-    },
+    "name": "800 ms < t < 1200 ms",
+    "count": 486,
+    "percentage": 3
+},
     "group3": {
-        "name": "t > 1200 ms",
-        "count": 12517,
-        "percentage": 78
-    },
+    "name": "t > 1200 ms",
+    "count": 13395,
+    "percentage": 84
+},
     "group4": {
-        "name": "failed",
-        "count": 0,
-        "percentage": 0
-    },
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
     "meanNumberOfRequestsPerSecond": {
-        "total": 242.42424242424244,
-        "ok": 242.42424242424244,
+        "total": 132.23140495867767,
+        "ok": 132.23140495867767,
         "ko": 0
     }
 }
